@@ -1,6 +1,6 @@
 # DirTree for listing directories as a tree
 
-## ![Example print](./images/dirtree.jpg)
+## ![Example print](./images/dirtree.JPG)
 
 ## Installation
 
