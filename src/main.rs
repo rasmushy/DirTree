@@ -11,6 +11,8 @@ const EXCLUDE_DIRS: &[&str] = &[
     "build",
     "out",
     "pkg",
+    ".idea",
+    ".vscode",
 ];
 
 #[derive(Parser, Debug)]
@@ -23,7 +25,6 @@ struct Args {
     #[clap(short, long)]
     exclude: Vec<String>,
 }
-
 
 fn create_indentation(depth: usize, path_last: &[bool]) -> String {
     let mut indentation = String::new();
